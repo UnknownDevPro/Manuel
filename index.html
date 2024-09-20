@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise Game</title>
+    <link rel="stylesheet" href="index-style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Welcome to Your Birthday Surprise! 🎉</h1>
+        <p>Get ready to play and celebrate!</p>
+        <a id="goToSurprise" href="success.html" class="button">Start the games!</a>
+        <div id="gameContainer" class="hidden">
+            <h2>Snake Game</h2>
+            <canvas id="gameCanvas"></canvas>
+            <div class="controls">
+                <button id="left" class="control-button">Left</button>
+                <button id="right" class="control-button">Right</button>
+                <button id="up" class="control-button">Up</button>
+                <button id="down" class="control-button">Down</button>
+            </div>
+            <div id="scoreDisplay">Score: <span id="score">0</span></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="index-script.js"></script>
+    <script src="main.js"></script>    
+</body>
+</html>

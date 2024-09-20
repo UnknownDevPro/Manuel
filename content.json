@@ -1,0 +1,21 @@
+{
+    "files": [
+        "index.html",
+        "style.css",
+        "birthday-script.js",
+        "birthday-style.css",
+        "code-display.css",
+        "code-display.js",
+        "code.html",
+        "index-script.js",
+        "index-style.css",
+        "main.js",
+        "nextgame.html",
+        "pong.css",
+        "pong.html",
+        "pong.js",
+        "space.css",
+        "space.js",
+        "success.html"
+    ]
+}
