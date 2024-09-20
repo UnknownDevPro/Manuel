@@ -16,6 +16,9 @@
         "pong.js",
         "space.css",
         "space.js",
+        "bank.js",
+        "bank.html",
+        "bank.css",
         "success.html"
     ]
 }
