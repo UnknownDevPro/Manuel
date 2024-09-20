@@ -60,7 +60,7 @@ function update() {
     if (ball.x - ball.size < 0) {
         botScore++;
         if (botScore >= winningScore) {
-            window.location.href = 'pong.html'; // Redirect to the next game
+            window.location.href = 'nextgame.html'; // Redirect to the next game
         }
         resetBall();
     }
